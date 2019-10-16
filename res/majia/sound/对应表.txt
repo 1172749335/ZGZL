@@ -1,0 +1,6 @@
+attack——攻击音效
+card_play——放置卡牌音效
+click——点击按钮音效（点击卡牌除外）
+life_recovery——生命恢复音效
+game_bg——战斗音乐
+main_bg——主界面音乐

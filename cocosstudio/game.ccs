@@ -1,0 +1,89 @@
+<Solution>
+  <PropertyGroup Name="game" Version="3.10.0.0" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Folder Name="gold">
+          <Image Name="00000.png" />
+          <Image Name="00001.png" />
+          <Image Name="00002.png" />
+          <Image Name="00003.png" />
+          <Image Name="00004.png" />
+          <Image Name="00005.png" />
+          <Image Name="00006.png" />
+          <Image Name="00007.png" />
+          <Image Name="00008.png" />
+          <Image Name="00009.png" />
+          <Image Name="00010.png" />
+          <Image Name="00011.png" />
+          <Image Name="00012.png" />
+          <Image Name="00013.png" />
+          <Image Name="00014.png" />
+          <Image Name="00015.png" />
+          <Image Name="00016.png" />
+          <Image Name="00017.png" />
+          <Image Name="00018.png" />
+          <Image Name="00019.png" />
+          <Image Name="00020.png" />
+          <Image Name="00021.png" />
+          <Image Name="00022.png" />
+          <Image Name="00023.png" />
+          <Image Name="00024.png" />
+        </Folder>
+        <Folder Name="majia">
+          <Folder Name="font">
+            <TTF Name="earth-normal.ttf" />
+            <TTF Name="font.ttf" />
+          </Folder>
+          <Folder Name="images">
+            <Folder Name="game">
+              <Image Name="1.png" />
+              <Image Name="2.png" />
+              <Image Name="3.png" />
+              <Image Name="bg.png" />
+              <Image Name="blueMask.png" />
+              <Image Name="btn_coinback.png" />
+              <Image Name="btn_dice.png" />
+              <Image Name="btn_dice_N.png" />
+              <Image Name="btn_end.png" />
+              <Image Name="btn_end_N.png" />
+              <Image Name="btn_obcerse.png" />
+              <Image Name="Button_close.png" />
+              <Image Name="Coinback.png" />
+              <Image Name="image.png" />
+              <Image Name="image_txt.png" />
+              <Image Name="obcerse.png" />
+              <Image Name="redMask.png" />
+              <Image Name="Selection.png" />
+            </Folder>
+            <Folder Name="main">
+              <Image Name="btn_glory.png" />
+              <Image Name="btn_play.png" />
+              <Image Name="btn_rule.png" />
+              <Image Name="btn_shopCards.png" />
+              <Image Name="effects_off.png" />
+              <Image Name="effects_on.png" />
+              <Image Name="gamebg.png" />
+              <Image Name="logo.png" />
+              <Image Name="muisc_on.png" />
+              <Image Name="music_off.png" />
+              <Image Name="spr_money.png" />
+            </Folder>
+            <Folder Name="shop">
+              <Image Name="123.png" />
+              <Image Name="43.png" />
+              <Image Name="Ccike.png" />
+              <Image Name="chios.png" />
+              <Image Name="ddfgdf.png" />
+              <Image Name="money.png" />
+              <Image Name="shopMaks.png" />
+            </Folder>
+          </Folder>
+          <Project Name="MainScene.csd" Type="Scene" />
+          <Project Name="PlayScene.csd" Type="Scene" />
+          <Project Name="ShopLayer.csd" Type="Layer" />
+        </Folder>
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>
