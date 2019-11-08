@@ -5,8 +5,7 @@
 
 游戏主页面
 
-
-！[image](https://github.com/1172749335/ZGZL/blob/master/cocosstudio/cocosstudio/image1.png）
+![image](https://github.com/1172749335/ZGZL/blob/master/cocosstudio/cocosstudio/image1.png)
 
 
 游戏商城界面
