@@ -4,14 +4,17 @@
 基于cocos-lua开发 引擎版本cocos2dx 3.16
 
 游戏主页面
+
 ！[image] （https://github.com/1172749335/ZGZL/blob/master/cocosstudio/cocosstudio/image1.png）
 
 
 游戏商城界面
+
 ![image](https://github.com/1172749335/ZGZL/blob/master/cocosstudio/cocosstudio/image2.png)
 
 
 游戏界面
+
 ![image](https://github.com/1172749335/ZGZL/blob/master/cocosstudio/cocosstudio/image3.png)
 
 游戏介绍
