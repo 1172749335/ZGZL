@@ -1,4 +1,0 @@
-VERSIONS =  
-{
-    pt = 0,
-}

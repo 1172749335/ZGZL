@@ -1,6 +1,6 @@
 --[[
 
-Copyright (c) 2014-2017 Chukong Technologies Inc.
+Copyright (c) 2011-2014 chukong-inc.com
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -184,12 +184,6 @@ function transition.sequence(actions)
     if #actions < 1 then return end
     if #actions < 2 then return actions[1] end
     return cc.Sequence:create(actions)
-end
-
-function transition.spawn(actions)
-    if #actions < 1 then return end
-    if #actions < 2 then return actions[1] end
-    return cc.Spawn:create(actions)
 end
 
 function transition.removeAction(action)

@@ -152,8 +152,6 @@ ccui.ScrollviewEventType = {
     bounceBottom = 6,
     bounceLeft = 7,
     bounceRight = 8,
-    containerMoved = 9,
-    autoscrollEnded = 10,
 }
 
 ccui.ListViewDirection = {
@@ -180,10 +178,8 @@ ccui.PageViewEventType = {
 }
 
 ccui.PageViewDirection = {
-  NONE = 0,
-  VERTICAL = 1,
-  HORIZONTAL = 2,
-  BOTH = 3
+  HORIZONTAL = 0,
+  VERTICAL = 1
 }
 
 ccui.PVTouchDir = {

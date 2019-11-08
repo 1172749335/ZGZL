@@ -68,14 +68,14 @@ ccs.SceneReader.destroySceneReader = CCSSceneReaderDeprecated.destroySceneReader
 --functions of CCArmatureDataManager will be deprecated begin
 local CCArmatureDataManagerDeprecated = { }
 function CCArmatureDataManagerDeprecated.sharedArmatureDataManager()
-    deprecatedTip("CCArmaturedataManager:sharedArmatureDataManager","ccs.ArmaturedataManager:getInstance")
-    return ccs.ArmaturedataManager:getInstance()
+    deprecatedTip("CCArmatureDataManager:sharedArmatureDataManager","ccs.ArmatureDataManager:getInstance")
+    return ccs.ArmatureDataManager:getInstance()
 end
 CCArmatureDataManager.sharedArmatureDataManager = CCArmatureDataManagerDeprecated.sharedArmatureDataManager
 
 function CCArmatureDataManagerDeprecated.purge()
-    deprecatedTip("CCArmaturedataManager:purge","ccs.ArmaturedataManager:destoryInstance")
-    return ccs.ArmaturedataManager:destoryInstance() 
+    deprecatedTip("CCArmatureDataManager:purge","ccs.ArmatureDataManager:destoryInstance")
+    return ccs.ArmatureDataManager:destoryInstance() 
 end
 CCArmatureDataManager.purge = CCArmatureDataManagerDeprecated.purge
 --functions of CCArmatureDataManager will be deprecated end

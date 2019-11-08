@@ -1,6 +1,6 @@
 --[[
 
-Copyright (c) 2014-2017 Chukong Technologies Inc.
+Copyright (c) 2011-2015 chukong-incc.com
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -27,18 +27,8 @@ require "cocos.cocos2d.Cocos2dConstants"
 require "cocos.cocos2d.functions"
 
 __G__TRACKBACK__ = function(msg)
-    -- record the message
-    local message = msg
-
-
     local msg = debug.traceback(msg, 3)
     print(msg)
-    -- release_print(msg)
-
-    -- report lua exception
-    buglyReportLuaException(tostring(message), debug.traceback())
-
-
     return msg
 end
 
@@ -102,7 +92,7 @@ require "cocos.network.DeprecatedNetworkClass"
 require "cocos.network.DeprecatedNetworkEnum"
 require "cocos.network.DeprecatedNetworkFunc"
 
--- register_ui_module
+-- register_ui_moudle
 if nil ~= ccui then
     require "cocos.ui.DeprecatedUIEnum"
     require "cocos.ui.DeprecatedUIFunc"

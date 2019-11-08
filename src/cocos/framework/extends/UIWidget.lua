@@ -1,6 +1,6 @@
 --[[
 
-Copyright (c) 2014-2017 Chukong Technologies Inc.
+Copyright (c) 2011-2014 chukong-inc.com
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -38,19 +38,6 @@ function Widget:onTouch(callback)
         end
         event.target = sender
         callback(event)
-    end)
-    return self
-end
-
-function Widget:onClick(callback)
-    self:addTouchEventListener(function(sender, state)
-        local event = {x = 0, y = 0}
-        if state == 2 then
-            event.name = "ended"
-            event.target = sender
-            PLAY_SOUND_CLICK()
-            callback(event)
-        end
     end)
     return self
 end

@@ -1,7 +1,7 @@
 
 --[[
 
-Copyright (c) 2014-2017 Chukong Technologies Inc.
+Copyright (c) 2011-2014 chukong-inc.com
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -60,14 +60,6 @@ function ListView:onScroll(callback)
             event.name = "BOUNCE_LEFT"
         elseif eventType == 8 then
             event.name = "BOUNCE_RIGHT"
-        elseif eventType == 9 then
-            event.name = "CONTAINER_MOVED"
-        elseif eventType == 10 then
-            event.name = "SCROLLING_BEGAN"
-        elseif eventType == 11 then
-            event.name = "SCROLLING_ENDED"
-        elseif eventType == 12 then
-            event.name = "AUTOSCROLL_ENDED"
         end
         event.target = sender
         callback(event)
